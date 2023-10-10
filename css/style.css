@@ -45,7 +45,7 @@ body {
 .jumbotron {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 60px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -102,9 +102,8 @@ body {
 }
 
 .contenedor-blog {
-    border-bottom: 8px solid #EC611C;
+    border-right: 8px solid #3C7E3A;
     border-left: 8px solid #EC611C;
-    border-bottom-left-radius: 6px;
     padding: 60px;
 }
 
@@ -133,4 +132,62 @@ body {
 
 .propiedades-img:hover {
     scale: 110%;
+}
+
+.adicionales {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenedor-adicionales {
+    border-bottom: 8px solid #EC611C;
+    border-left: 8px solid #EC611C;
+    border-bottom-left-radius: 6px;
+    padding: 60px;
+}
+
+.titulo-adicionales {
+    padding-bottom: 60px;
+}
+
+.adicionales-lista {
+    background-color: #3C7E3A;
+    color: white;
+    list-style-type: none;
+    border: 3px solid #3C7E3A;
+    border-radius: 6px;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+i {
+    font-size: 40px;
+}
+
+.contenedor-footer {
+    background-color: #3C7E3A;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefonos {
+    padding: 30px;
+}
+
+.dom {
+    padding: 30px;
+}
+
+.redes-soc {
+    padding: 30px;
 }
