@@ -107,6 +107,10 @@ body {
     padding: 60px;
 }
 
+.titulo-blog {
+    padding-bottom: 60px;
+}
+
 .propiedades {
     background-color: #3C7E3A;
     color: white;
