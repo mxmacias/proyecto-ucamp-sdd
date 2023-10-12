@@ -54,8 +54,8 @@ body {
 }
 
 .contenedor-jumbotron {
-    border-top: 4px solid #EC611C;
-    border-right: 4px solid #EC611C;
+    border-top: 4px solid #3C7E3A;
+    border-right: 4px solid #3C7E3A;
     border-top-right-radius: 6px;
     padding: 10px;
     font-size: 10px;
@@ -81,7 +81,7 @@ label {
 .input-email {
     border: 2.5px solid #3C7E3A;
     border-radius: 6px;
-    padding: 5px;
+    padding: 6px;
     margin: 6px 0px 12px 0px;
 }
 
@@ -90,6 +90,7 @@ label {
     color: white;
     border: 2.5px solid #3C7E3A;
     border-radius: 6px;
+    padding: 6px;
 }
 
 .boton-email:hover {
@@ -183,6 +184,7 @@ h5 {
     background-color: #3C7E3A;
     border: 2.5px solid #3C7E3A;
     border-radius: 6px;
+    font-size: 12px;
 }
 
 .telefonos {
@@ -202,4 +204,265 @@ h5 {
     border: 2.5px solid #3C7E3A;
     border-radius: 6px;
     padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    
+    .logo {
+        width: 40px;
+    }
+    
+    .contenedor-boton-nav {
+        padding: 15px 0px 15px 0px;
+    }
+    
+    .boton-nav {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .jumbotron {
+        width: 600px;
+        padding: 20px;
+    }
+    
+    .contenedor-jumbotron {
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+    .titulo-jumbo {
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .banner-img {
+        height: 80px;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    label {
+        font-size: 14px;
+    }
+
+    .blog {
+        width: 600px;
+        padding: 20px;
+    }
+    
+    .titulo-blog {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+        
+    .propiedades-img {
+        height: 140px;
+    }
+
+    .propiedades-img {
+        height: 110px;
+    }
+    
+    .adicionales {
+        width: 600px;
+        padding: 20px;
+    }
+    
+    .contenedor-adicionales {
+        padding: 20px;
+    }
+    
+    .titulo-adicionales {
+        font-size: 20px;
+    }
+    
+    .adicionales-lista {
+        font-size: 16px;
+    }
+    
+    i {
+        font-size: 35px;
+    }
+    
+    .contenedor-footer {
+        font-size: 14px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+    
+    .telefonos {
+        padding: 15px 0px 15px 0px;
+    }
+    
+    .dom {
+        padding-bottom: 15px;
+    }
+    
+    .redes-soc {
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+    .logo {
+        width: 80px;
+    }
+    
+    .contenedor-boton-nav {
+        padding: 25px 0px 25px 0px;
+    }
+    
+    .boton-nav {
+        font-size: 20px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .jumbotron {
+        width: 850px;
+        padding: 30px;
+    }
+    
+    .contenedor-jumbotron {
+        padding: 30px;
+        font-size: 18px;
+    }
+    
+    .titulo-jumbo {
+        font-size: 22px;
+        padding: 30px;
+    }
+    
+    .banner-img {
+        height: 120px;
+        margin: 30px 0px 30px 0px;
+    }
+    
+    label {
+        font-size: 16px;
+    }
+
+    .blog {
+        width: 850px;
+        padding: 30px;
+    }
+    
+    .titulo-blog {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .propiedades {
+        padding: 20px;
+    }
+        
+    .propiedades-img {
+        width: 200px;
+        height: 130px;
+        margin: 0px;
+    }
+
+    .propiedades-li {
+        font-size: 14px;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .adicionales {
+        width: 850px;
+        padding: 20px;
+    }
+    
+    .contenedor-adicionales {
+        padding: 30px;
+    }
+    
+    .titulo-adicionales {
+        font-size: 22px;
+    }
+    
+    .adicionales-lista {
+        font-size: 18px;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    i {
+        font-size: 40px;
+    }
+    
+    .contenedor-footer {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+    
+    .telefonos {
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .dom {
+        padding-bottom: 20px;
+    }
+    
+    .redes-soc {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    
+    .logo {
+        width: 90px;
+    }
+    
+    .boton-nav {
+        font-size: 25px;
+    }
+
+    .jumbotron {
+        width: 1220px;
+    }
+    
+    .banner-img {
+        height: 160px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .blog {
+        width: 1220px;
+    }
+    
+    .titulo-blog {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .propiedades {
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        margin: 20px;
+    }
+        
+    .propiedades-img {
+        width: 240px;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+
+    .propiedades-li {
+        font-size: 18px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .adicionales {
+        width: 1200px;
+        padding: 20px;
+    }
+
 }
